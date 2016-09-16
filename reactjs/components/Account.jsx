@@ -15,14 +15,6 @@ export default class Account extends React.Component {
           <input type="text" className="form-control" placeholder="Email"/>
         </div>
         <div className="form-group">
-          <label>Name</label>
-          <input type="text" className="form-control" placeholder="Name"/>
-        </div>
-        <div className="form-group">
-          <label>Lastname</label>
-          <input type="text" className="form-control" placeholder="Lastname"/>
-        </div>
-        <div className="form-group">
           <label>Password</label>
           <input type="password" className="form-control" placeholder="Password"/>
         </div>
