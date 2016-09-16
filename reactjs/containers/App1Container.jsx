@@ -1,6 +1,6 @@
 import React from "react"
 
-import Headline from "../components/Headline"
+// import Headline from "../components/Headline"
 
 export default class App1Container extends React.Component {
   render() {
@@ -8,7 +8,8 @@ export default class App1Container extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <Headline>Changing!</Headline>
+            {/* <Headline>Changing!</Headline> */}
+            <h1>Hello there</h1>
           </div>
         </div>
       </div>
