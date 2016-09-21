@@ -19,8 +19,24 @@ export default class Personal extends React.Component {
           <input type="password" className="form-control" placeholder="Last Name"/>
         </div>
         <div className="form-group">
+            <label>Date of Birth</label>
+            <input type="text" className="form-control" placeholder="MM/DD"/>
+        </div>
+        <div className="form-group">
+            <label>Phone Number</label>
+            <input type="text" className="form-control" placeholder="xxx-xxx-xxxx"/>
+        </div>
+        <div className="form-group">
+            <label>Gender</label>
+              <select value="F">
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+                <option value="X">unspecified</option>
+              </select>
+        </div>
+        <div className="form-group">
             <label>Address</label>
-            <input type="password" className="form-control" placeholder="Address"/>
+            <textarea name="address" className="form-control" placeholder="Address"/>
         </div>
         <div className="form-group">
             <button className="btn btn-primary" onClick={this.nextStep}>Save &amp; Continue</button>
