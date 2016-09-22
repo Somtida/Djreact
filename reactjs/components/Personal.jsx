@@ -20,7 +20,7 @@ export default class Personal extends React.Component {
         </div>
         <div className="form-group">
             <label>Date of Birth</label>
-            <input type="text" className="form-control" placeholder="MM/DD"/>
+            <input type="date" className="form-control" placeholder="MM/DD/YYYY"/>
         </div>
         <div className="form-group">
             <label>Phone Number</label>
@@ -37,6 +37,18 @@ export default class Personal extends React.Component {
         <div className="form-group">
             <label>Address</label>
             <textarea name="address" className="form-control" placeholder="Address"/>
+        </div>
+        <div className="form-group">
+            <label>City</label>
+            <input type="text" className="form-control" placeholder="City"/>
+        </div>
+        <div className="form-group">
+            <label>State</label>
+            <input type="text" className="form-control" placeholder="State"/>
+        </div>
+        <div className="form-group">
+            <label>Zipcode</label>
+            <input type="text" className="form-control" placeholder="Zipcode"/>
         </div>
         <div className="form-group">
             <button className="btn btn-primary" onClick={this.nextStep}>Save &amp; Continue</button>
